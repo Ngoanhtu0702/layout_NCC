@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: relative;
+}
+
+nav .sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 150px;
+    height: 935px;
+}
+
+nav .sidebar a {
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+    color: #AAAAAA;
+}
+
+nav .sidebar .active{
+    color: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    width: 310px;
+    height: 122px;
+    background: url(./img/logoNCC\ 1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 5px;
+    left: 41%;
+}
+
+.content {
+    position: absolute;
+    width: 1510px;
+    height: 210px;
+    top: 19%;
+    left: 11%;
+    background: #EFEFEF;
+}
+
+.content .title span {
+    position: absolute;
+    width: 241px;
+    height: 21px;
+    left: 37%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 20px;
+    color: #000000;
+}
+
+.content p {
+    position: absolute;
+    width: 925px;
+    height: 140px;
+    margin-top: 40px;
+    left: 16%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.list_content {
+    position: absolute;
+    top: 45%;
+    left: 11%;
+}
+
+.list_content .item {
+    width: 470px;
+    height: 252px;
+    background: #FFFFFF;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.list .item {
+    margin-left: 25px;
+}
+
+.list .item .title {
+    width: 470px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.list_content .item .thumnail {
+    position: relative;
+    margin-top: 15px;
+}
+
+.list_content .item .thumnail image {
+    width: 128px;
+    height: 128px;
+}
+
+.list_content .item .thumnail p {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 304px;
+    height: 134px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.list_content .item .thumnail span {
+    position: absolute;
+    width: 411px;
+    height: 72px;
+    top: 100%;
+    left: 3%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer {
+    position: absolute;
+    left: 8.6%;
+    right: 0%;
+    bottom: 2%;
+    border-top: 1px solid #DEDEDE;
+    background: #FFFFFF;
+  
+}
+
+.footer p{
+    margin-top: 25px;
+    margin-left: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
